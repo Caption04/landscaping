@@ -199,6 +199,9 @@ Hero Responsiveness
 ======================
 */
 @media screen and (max-width: 478px) {
+  .hero-content{
+    padding-left: 5%;
+  }
   .header-small{
     display: flex;
   }
