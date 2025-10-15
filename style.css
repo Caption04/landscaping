@@ -81,7 +81,7 @@ h6{
 }
 .nav-bar{
     z-index: 2;
-    border-right: 1px solid var(--white);
+    border-right: 1px solid var(--secondary-clr-);
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
@@ -106,14 +106,18 @@ h6{
   height: 32px;
 }
 .logo-link{
-  justify-content: center;
+    justify-content: center;
     margin-top: -3em;
     display: flex;
     transform: rotate(90deg);
     float: left;
-    color: #333;
+    font-family: var(--ff-primary-);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--secondary-clr-);
     text-decoration: none;
     position: relative;
+    white-space: nowrap;
 }
 
 .date-established{
