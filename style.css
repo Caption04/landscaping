@@ -177,7 +177,7 @@ h1{
   padding: 1em 2em;
 }
 
-.header-small svg{
+.small-hero-btn svg{
   width: 32px;
   height: 32px;
   min-width: 32px;
@@ -201,6 +201,9 @@ Hero Responsiveness
 @media screen and (max-width: 478px) {
   .header{
     display: none;
+  }
+  h1{
+    text-align: center;
   }
   .subtag{
     display: none;
