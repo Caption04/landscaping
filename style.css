@@ -121,7 +121,7 @@ h6{
     color: var(--secondary-clr-);
     letter-spacing: -.04em;
     margin-bottom: 8vh;
-    font-family: Playfair Display, sans-serif;
+    font-family: var(--ff-primary-);
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1em;
