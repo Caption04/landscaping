@@ -170,6 +170,29 @@ h1{
   position: absolute;
   inset: auto auto 8vh 13%;
 }
+
+.header-small{
+  display: none;
+  width: 100%;
+  padding: 1em 2em;
+}
+
+.header-small svg{
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  flex-shrink: 0;
+}
+
+.logo-link-small{
+  font-family: var(--ff-primary-);
+  font-weight: 400;
+  font-size: 1.5em;
+  color: var(--secondary-clr-);
+  white-space: nowrap;
+  margin: auto;
+}
 /* 
 ======================
 Hero Responsiveness
