@@ -65,7 +65,7 @@ h6{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.5);
+  filter: brightness(0.4);
 }
 
 .header{
@@ -159,6 +159,7 @@ h1{
   margin-bottom: 0;
 }
 .subtag{
+  font-family: var(--ff-primary-);
   color: var(--secondary-clr-);
   font-size: clamp(16px, 0.1rem + 2vw, 22px);
   font-weight: 700;
