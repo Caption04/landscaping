@@ -172,9 +172,11 @@ h1{
 }
 
 .header-small{
+  position: relative;
   display: none;
   width: 100%;
   padding: 1em 2em;
+  z-index: 2;
 }
 
 .small-hero-btn svg{
