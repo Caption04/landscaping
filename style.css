@@ -174,9 +174,11 @@ h1{
 .header-small{
   position: relative;
   display: none;
+  align-items: center;
   width: 100%;
   padding: 1em 2em;
   z-index: 2;
+  background: var(--primary-clr-);
 }
 
 .small-hero-btn svg{
@@ -190,7 +192,7 @@ h1{
 .logo-link-small{
   font-family: var(--ff-primary-);
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--secondary-clr-);
   white-space: nowrap;
   margin: auto;
