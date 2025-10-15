@@ -204,6 +204,9 @@ Hero Responsiveness
 ======================
 */
 @media screen and (max-width: 478px) {
+  .hero{
+    height: 80vh;
+  }
   .hero-content{
     padding-left: 5%;
   }
