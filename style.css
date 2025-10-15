@@ -170,3 +170,16 @@ h1{
   position: absolute;
   inset: auto auto 8vh 13%;
 }
+/* 
+======================
+Hero Responsiveness
+======================
+*/
+@media screen and (max-width: 478px) {
+  .header{
+    display: none;
+  }
+  .subtag{
+    display: none;
+  }
+}
