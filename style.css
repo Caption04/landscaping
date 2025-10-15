@@ -194,6 +194,7 @@ h1{
   color: var(--secondary-clr-);
   white-space: nowrap;
   margin: auto;
+  text-decoration: none;
 }
 /* 
 ======================
