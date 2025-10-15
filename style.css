@@ -159,7 +159,7 @@ h1{
   margin-bottom: 0;
 }
 .subtag{
-  color: var(--white);
+  color: var(--secondary-clr-);
   font-size: clamp(16px, 0.1rem + 2vw, 22px);
   font-weight: 700;
   position: absolute;
