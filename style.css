@@ -76,7 +76,7 @@ h6{
   color: var(--secondary-clr-);
   font-family: var(--ff-primary-);
   font-weight: 400;
-  font-size: clamp(18px, 0.1rem + 2vw, 50px);
+  font-size: clamp(18px, 0.1rem + 1vw, 50px);
   /* font-size: 50px; */
   text-decoration: none;
 }
