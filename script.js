@@ -27,7 +27,6 @@ window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
     const viewportHeight = window.innerHeight;
 
-    // how far we've scrolled into section from (0 -> 1)
     let progress = (scrollY + viewportHeight - sectionTop) / (sectionHeight + viewportHeight);
     progress = Math.min(Math.max(progress, 0), 1);
 
@@ -36,8 +35,9 @@ window.addEventListener("scroll", () => {
     otherImgs.forEach((img, i) => {
         if(i < 3){
             img.style.transform = `translateX(${-100 * progress}%)`;
-        }else{
+        } else {
             img.style.transform = `translateX(${100 * progress}%)`;
         }
     });
 });
+
