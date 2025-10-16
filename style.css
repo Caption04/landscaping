@@ -60,6 +60,7 @@ h6{
   padding-left: 4em;
   padding-top: 2em;
 }
+
 .menu-col{
   display: flex;
   flex-direction: column;
@@ -102,6 +103,15 @@ h6{
   min-width: 32px;
   min-height: 32px;
   flex-shrink: 0;
+}
+
+@media screen and (max-width: 478px) {
+  .menu{
+    grid-template-columns: 1fr;
+  }
+  .menu-socials{
+    display: none;
+  }  
 }
 .hero{
   position: relative;
