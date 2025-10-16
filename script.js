@@ -9,4 +9,10 @@ navButton.addEventListener("click", () => {
     menu.classList.toggle("open");
     openBtn.classList.toggle("open-btn");
     closeBtn.classList.toggle("close-btn");
+    if(menu.classList.contains("open")){
+        document.body.style.overflow = "hidden";
+    }
+    else{
+        document.body.style.overflow = "auto";
+    }
 })
