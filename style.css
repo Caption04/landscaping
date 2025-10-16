@@ -182,7 +182,7 @@ h1{
   display: none;
   align-items: center;
   width: 100%;
-  padding: 1em 2em;
+  padding: 0.5em 1em;
   z-index: 2;
   background: var(--primary-clr-);
 }
