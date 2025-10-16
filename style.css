@@ -57,7 +57,7 @@ h6{
   background: var(--primary-clr-);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 3em;
+  padding-left: 4em;
   padding-top: 2em;
 }
 .menu-col{
