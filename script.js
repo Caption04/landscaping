@@ -6,7 +6,6 @@ navButton.addEventListener("click", () => {
     const closeBtn = navButton.querySelector(".menu-close-btn");
     const openBtn = navButton.querySelector(".menu-open-btn");
 
-    header.classList.toggle("menu");
     menu.classList.toggle("open");
     openBtn.classList.toggle("open-btn");
     closeBtn.classList.toggle("close-btn");
