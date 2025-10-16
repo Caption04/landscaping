@@ -375,7 +375,8 @@ h2{
 }
 
 .gallery-img{
-  flex: 1;
+  /* flex: 1; */
+  width: 20%;
   background: green;
   transition: transform 0.2s, width 0.2s;
 }
