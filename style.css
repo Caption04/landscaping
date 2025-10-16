@@ -110,9 +110,11 @@ h6{
   flex-shrink: 0;
 }
 .menu-close-btn{
+  opacity: 1;
+}
+.menu-close-btn{
   opacity: 0;
 }
-.menu-close-btn{}
 .logo-link{
     justify-content: center;
     display: flex;
