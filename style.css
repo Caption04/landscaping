@@ -36,7 +36,7 @@ button{
   font-size: clamp(12px, 0.1rem + 2vw, 16px);
   padding: 0.5em 1em;
   border-style: none;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 h1,
@@ -320,7 +320,7 @@ Hero Responsiveness
 Body content
 */
 h2{
-  font-size: clamp(25px, 0.1rem + 2vw, 30px);
+  font-size: clamp(25px, 0.1rem + 4vw, 50px);
 }
 .body{
   display: flex;
