@@ -352,6 +352,7 @@ h2{
 
 .about-us-btn{
   color: var(--primary-clr-);
+  margin-right: 2em;
 }
 .gallery-btn{
   color: var(--secondary-clr-);
