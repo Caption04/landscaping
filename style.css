@@ -73,7 +73,8 @@ h6{
   color: var(--secondary-clr-);
   font-family: var(--ff-primary-);
   font-weight: 400;
-  font-size: clamp(14px, 0.1rem + 2vw, 18px);
+  font-size: clamp(14px, 0.1rem + 2vw, 25px);
+  text-decoration: none;
 }
 .hero{
   position: relative;
