@@ -99,6 +99,7 @@ h6{
     padding: 3.1em 1em;
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 
 .nav-menu-btn svg{
@@ -186,6 +187,9 @@ h1{
   background: var(--primary-clr-);
 }
 
+.small-hero-btn{
+  cursor: pointer;
+}
 .small-hero-btn svg{
   width: 32px;
   height: 32px;
