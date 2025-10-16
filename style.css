@@ -51,6 +51,12 @@ h6{
   line-height: 1.2;
 }
 
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
 .menu{
   position: fixed;
   left: 0;
@@ -391,8 +397,8 @@ h2{
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
   place-items: start end;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
   display: grid;
 }
 
