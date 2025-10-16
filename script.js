@@ -19,7 +19,7 @@ navButton.addEventListener("click", () => {
 
 const section = document.getElementById("gallery");
 const targetImg = document.getElementById("img4");
-const otherImgs = [...document.querySelectorAll(".img")].filter(img => img !== targetImg);
+const otherImgs = [...document.querySelectorAll(".gallery-img")].filter(img => img !== targetImg);
 
 window.addEventListener("scroll", () => {
     const sectionTop = section.offsetTop;
@@ -31,13 +31,13 @@ window.addEventListener("scroll", () => {
     let progress = (scrollY + viewportHeight - sectionTop) / (sectionHeight + viewportHeight);
     progress = Math.min(Math.max(progress, 0), 1);
 
-    targetImg.style.width = 20 * (100 - 20) * progress + '%';
+    targetImg.style.width = 20 + (100 - 20) * progress + '%';
 
     otherImgs.forEach((img, i) => {
         if(i < 3){
-            img.style.transform = `translateX{${-100 * progress}%}`;
+            img.style.transform = `translateX(${-100 * progress}%)`;
         }else{
-            img.style.transform = `translateX{${100 * progress}%}`;
+            img.style.transform = `translateX(${100 * progress}%)`;
         }
     });
 });
