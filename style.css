@@ -59,6 +59,13 @@ h6{
   grid-template-columns: 1fr 1fr;
   padding-left: 4em;
   padding-top: 2em;
+  visibility: hidden;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+.menu.open{
+  transform: translateX(0%);
+  visibility: visible;
 }
 
 .menu-col{
@@ -174,9 +181,18 @@ h6{
 }
 .menu-close-btn{
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
+.menu-close-btn.close-btn{
+  opacity: 1;
+}
+
 .menu-open-btn{
   opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.menu-open-btn.open-btn{
+  opacity: 0;
 }
 .logo-link{
     justify-content: center;
