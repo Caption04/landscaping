@@ -30,7 +30,7 @@ window.addEventListener("scroll", () => {
     let progress = (scrollY + viewportHeight - sectionTop) / (sectionHeight + viewportHeight);
     progress = Math.min(Math.max(progress, 0), 1);
 
-    targetImg.style.width = 20 + (100 - 20) * progress + '%';
+    targetImg.style.width = 20 + (100 - 20) * progress + 'vw';
 
     otherImgs.forEach((img, i) => {
         if(i < 3){
