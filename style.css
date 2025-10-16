@@ -110,7 +110,7 @@ h6{
   flex-shrink: 0;
 }
 .logo-link{
-    justify-content: center;
+    /* justify-content: center;
     margin-top: -3em;
     display: flex;
     transform: rotate(90deg);
@@ -121,7 +121,7 @@ h6{
     color: var(--secondary-clr-);
     text-decoration: none;
     position: relative;
-    white-space: nowrap;
+    white-space: nowrap; */
 }
 .logo-link img{ 
   width: 40vw;
