@@ -17,27 +17,29 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const section = document.getElementById("gallery");
-const targetImg = document.getElementById("img4");
-const otherImgs = [...document.querySelectorAll(".gallery-img")].filter(img => img !== targetImg);
+const section = document.querySelector('.gallery-section');
+const targetImg = document.getElementById('img4');
+const otherImgs = [...document.querySelectorAll('.gallery-image')].filter(img => img !== targetImg);
 
-window.addEventListener("scroll", () => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.offsetHeight;
-    const scrollY = window.scrollY;
-    const viewportHeight = window.innerHeight;
+window.addEventListener('scroll', () => {
+  const sectionTop = section.offsetTop;
+  const sectionHeight = section.offsetHeight;
+  const scrollY = window.scrollY;
+  const viewportHeight = window.innerHeight;
 
-    let progress = (scrollY + viewportHeight - sectionTop) / (sectionHeight + viewportHeight);
-    progress = Math.min(Math.max(progress, 0), 1);
+  // progress from 0 → 1 as user scrolls through the pinned section
+  let progress = (scrollY - sectionTop + viewportHeight) / (sectionHeight);
+  progress = Math.min(Math.max(progress, 0), 1);
 
-    targetImg.style.width = 20 + (100 - 20) * progress + 'vw';
+  // grow target image
+  targetImg.style.width = 20 + (100 - 20) * progress + 'vw';
 
-    otherImgs.forEach((img, i) => {
-        if(i < 3){
-            img.style.transform = `translateX(${-100 * progress}%)`;
-        } else {
-            img.style.transform = `translateX(${100 * progress}%)`;
-        }
-    });
+  // slide other images aside
+  otherImgs.forEach((img, i) => {
+    if(i < 3){
+      img.style.transform = `translateX(${-50 * progress}%)`; // left
+    } else {
+      img.style.transform = `translateX(${50 * progress}%)`; // right
+    }
+  });
 });
-
