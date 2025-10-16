@@ -203,6 +203,11 @@ h1{
   margin: auto;
   text-decoration: none;
 }
+.logo-link-small img{
+  width: 15vw;
+  height: auto;
+  min-width: 90px;
+}
 /* 
 ======================
 Hero Responsiveness
