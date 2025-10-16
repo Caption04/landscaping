@@ -61,6 +61,19 @@ h6{
 .menu-col{
   display: flex;
   flex-direction: column;
+  padding: 1em 2em;
+}
+.menu-data-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-data-list a{
+  color: var(--secondary-clr-);
+  font-family: var(--ff-primary-);
+  font-weight: 400;
+  font-size: clamp(14px, 0.1rem + 2vw, 18px);
 }
 .hero{
   position: relative;
