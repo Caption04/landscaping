@@ -384,21 +384,36 @@ h2{
 
 #img1{
   background-image: url('img1.jpg');
-  background: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: red; */
 }
 #img2{
   background-image: url('img2.jpg');
-  background: orange;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: orange; */
 }
 #img3{
   background-image: url('img3.jpg');
-  background: yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: yellow; */
 }
 #img4{
   background-image: url('img4.jpg');
-  background: blue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: blue; */
 }
 #img5{
   background-image: url('img5.jpg');
-  background: indigo;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: indigo; */
 }
