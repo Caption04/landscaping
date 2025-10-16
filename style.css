@@ -403,6 +403,9 @@ h2{
   position: relative;
   overflow: hidden;
 }
+.hero-image-wrapper.image-1 {
+  top: 5%;
+}
 .hero-image-wrapper.is-image-2 {
   width: 15vw;
 }
