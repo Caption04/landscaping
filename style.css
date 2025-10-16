@@ -110,17 +110,19 @@ h6{
   flex-shrink: 0;
 }
 .logo-link{
-    /* justify-content: center;
-    margin-top: -3em;
-    display: flex;
+    /* 
     
-    float: left;
+    
     font-family: var(--ff-primary-);
     font-size: 1.5em;
     font-weight: 400;
     color: var(--secondary-clr-);
     text-decoration: none;
     white-space: nowrap; */
+    justify-content: center;
+    display: flex;
+    margin-top: -3em;
+    float: left;
     transform: rotate(90deg);
     position: relative;
 }
