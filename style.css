@@ -173,10 +173,10 @@ h6{
   flex-shrink: 0;
 }
 .menu-close-btn{
-  opacity: 1;
+  opacity: 0;
 }
 .menu-open-btn{
-  opacity: 0;
+  opacity: 1;
 }
 .logo-link{
     justify-content: center;
