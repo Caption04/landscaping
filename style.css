@@ -101,24 +101,19 @@ h6{
     position: relative;
     cursor: pointer;
 }
-
 .nav-menu-btn svg{
+  position: absolute;
   width: 32px;
   height: 32px;
   min-width: 32px;
   min-height: 32px;
   flex-shrink: 0;
 }
+.menu-close-btn{
+  opacity: 0;
+}
+.menu-close-btn{}
 .logo-link{
-    /* 
-    
-    
-    font-family: var(--ff-primary-);
-    font-size: 1.5em;
-    font-weight: 400;
-    color: var(--secondary-clr-);
-    text-decoration: none;
-    white-space: nowrap; */
     justify-content: center;
     display: flex;
     /* margin-top: -3em; */
