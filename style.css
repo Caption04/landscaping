@@ -113,15 +113,16 @@ h6{
     /* justify-content: center;
     margin-top: -3em;
     display: flex;
-    transform: rotate(90deg);
+    
     float: left;
     font-family: var(--ff-primary-);
     font-size: 1.5em;
     font-weight: 400;
     color: var(--secondary-clr-);
     text-decoration: none;
-    position: relative;
     white-space: nowrap; */
+    transform: rotate(90deg);
+    position: relative;
 }
 .logo-link img{ 
   width: 40vw;
