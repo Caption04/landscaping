@@ -121,15 +121,15 @@ h6{
     white-space: nowrap; */
     justify-content: center;
     display: flex;
-    margin-top: -3em;
+    /* margin-top: -3em; */
     float: left;
     transform: rotate(90deg);
     position: relative;
 }
 .logo-link img{ 
-  width: auto;
-  height: 10vh;
-  min-width: 90px;
+  width: 20vw;
+  height: auto;
+  min-width: 120px;
 }
 
 .date-established{
