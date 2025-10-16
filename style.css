@@ -122,6 +122,11 @@ h6{
     position: relative;
     white-space: nowrap;
 }
+.logo-link img{ 
+  width: 15vw;
+  height: auto;
+  min-width: 90px;
+}
 
 .date-established{
     z-index: 2;
