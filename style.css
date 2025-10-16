@@ -77,6 +77,13 @@ h6{
   font-size: 50px;
   text-decoration: none;
 }
+.menu-social-list-link svg{
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  flex-shrink: 0;
+}
 .hero{
   position: relative;
   width: 100%;
