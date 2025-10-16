@@ -362,28 +362,109 @@ h2{
 }
 
 /* Section 2 */
-#gallery-section{
-  position: relative;
-  height: 200vh; /* taller so scroll drives animation */
-}
-.gallery{
-  position: sticky; /* pins at top */
-  top: 0;
+.gallery-section{
+  align-items: center;
+  width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: visible;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.gallery-container{
   z-index: 1;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 30% 20%;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  display: grid;
 }
 
-.gallery-img{
-  width: 20vw; /* initial size */
-  height: 80vh;
-  background-color: gray; /* placeholder */
-  transition: width 0.2s, transform 0.2s;
-  flex-shrink: 0;
+.image-group-left{  
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  place-items: start end;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
 }
+
+.hero-image-wrapper {
+  border-radius: 0;
+  flex: none;
+  width: 22vw;
+  position: relative;
+  overflow: hidden;
+}
+.hero-image-wrapper.is-image-2 {
+  width: 15vw;
+}
+.hero-image-wrapper.is-image-3 {
+  width: 15vw;
+}
+.hero-image-wrapper.is-image-4 {
+  top: 15%;
+}
+.hero-image-wrapper.is-image-5 {
+  width: 30vw;
+  height: 100%;
+}
+.hero-image-wrapper.is-image-6 {
+  top: 5%;
+}
+
+.hero-image {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero-small-image-group{
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  top: -5%;
+}
+
+.header-image-3 {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  width: 100%;
+}
+
+.header-image-4 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+}
+.header-image-5 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-group-right{
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  place-items: start end;
+  padding-left: 3.2rem;
+  padding-right: 1rem;
+  display: grid;
+}
+
 
 #img1{
   background-image: url('img1.jpg');
