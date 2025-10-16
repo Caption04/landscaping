@@ -199,16 +199,13 @@ h1{
   min-width: 32px;
   min-height: 32px;
   flex-shrink: 0;
+  margin-right: auto;
 }
 
 .logo-link-small{
-  font-family: var(--ff-primary-);
-  font-weight: 400;
-  font-size: 1.3em;
-  color: var(--secondary-clr-);
-  white-space: nowrap;
-  margin: auto;
-  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .logo-link-small img{
   width: 15vw;
