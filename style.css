@@ -127,8 +127,8 @@ h6{
     position: relative;
 }
 .logo-link img{ 
-  width: 40vw;
-  height: auto;
+  width: auto;
+  height: 10vh;
   min-width: 90px;
 }
 
