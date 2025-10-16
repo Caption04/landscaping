@@ -324,6 +324,9 @@ h2{
   font-size: clamp(25px, 0.1rem + 4vw, 50px);
   color: var(--secondary-clr-);
 }
+.body-row-header-container{
+  padding-bottom: 12em;
+}
 .body{
   display: flex;
   flex-direction: column;
