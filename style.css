@@ -352,7 +352,10 @@ h2{
 
 .about-us-btn{
   color: var(--primary-clr-);
-  background: transparent;
 }
-.gallery-btn{}
+.gallery-btn{
+  color: var(--secondary-clr-);
+  background: transparent;
+  border: 1px solid var(--secondary-clr-);
+}
 
