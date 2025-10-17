@@ -32,6 +32,5 @@ window.addEventListener('scroll', () => {
 
     // move next image to neutral and bring it on top
     nextImage.style.transform = 'translateY(0)';
-    nextImage.style.zIndex = currentIndex + 1; // ensure it rises above previous
   }
 });
