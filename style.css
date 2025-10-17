@@ -481,3 +481,13 @@ h2{
   justify-content: center;
   align-items: center;
 }
+
+#node-1{
+  justify-self: end;
+}
+#node-2{
+  align-self: center;
+}
+#node-3{
+  justify-self: start;
+}
