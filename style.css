@@ -370,6 +370,7 @@ h2{
 
 /* Section 2 */
 .gallery-section{
+  padding-left: 12%;
   width: 100%;
   position: relative;
 }
@@ -394,6 +395,11 @@ h2{
   border-radius: 20px;
   transform: translateZ(0);
   will-change: transform;
+}
+@media screen and (max-width: 478px) {
+  .gallery-section{
+    padding-left: 0;
+  }
 }
 
 
