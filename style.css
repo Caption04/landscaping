@@ -436,7 +436,7 @@ h2{
 }
 
 .hero-small-image-group{
-  grid-column-gap: 1rem;
+  /* grid-column-gap: 1rem; */
   grid-row-gap: 1rem;
   flex-direction: column;
   display: flex;
