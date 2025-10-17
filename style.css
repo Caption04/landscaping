@@ -382,7 +382,7 @@ h2{
   position: relative;
   width: 100vw;
   aspect-ratio: 3/4;
-  background: orange;
+  /* background: orange; */
 }
 .gallery-container img {
   position: absolute;
@@ -395,7 +395,7 @@ h2{
 .stack img:nth-child(1) { 
   left: 50%;
   transform: translate(0px, 0px) rotate(0); 
-  z-index: 3; 
+  z-index: 1; 
 }
 .stack img:nth-child(2) { 
   left: 50%;
@@ -407,6 +407,6 @@ h2{
   left: 50%;
   transform-origin: bottom center;
   transform: translate(-5px, 10px) rotate(0deg); 
-  z-index: 1; 
+  z-index: 3; 
 }
 
