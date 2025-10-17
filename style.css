@@ -446,7 +446,9 @@ h2{
   align-items: center;
   justify-content: center;
 }
-.data-box-row{}
+.data-box-row{
+  padding: 1em 0;
+}
 .data-box-number{
   font-size: clamp(25px, 0.1rem + 2vw, 40px);
 }
