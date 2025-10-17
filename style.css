@@ -377,13 +377,13 @@ h2{
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .image-container{
   top: 0;
   position: sticky;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   contain: layout paint; /* prevents browser from recalculating siblings */
 }
 .image-container img {
