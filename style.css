@@ -380,7 +380,7 @@ h2{
 }
 .gallery-container{
   position: relative;
-  width: 90vw;
+  width: 100vw;
   aspect-ratio: 3/4;
   background: orange;
 }
