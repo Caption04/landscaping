@@ -374,17 +374,26 @@ h2{
   position: relative;
 }
 .gallery-container{
+  width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
-.gallery-container img {
+.image-container{
   top: 20%;
   position: sticky;
-  width: 100vw;
-  aspect-ratio: 3/4;
+  width: 100%;
+  height: 100vh;
+  contain: layout paint; /* prevents browser from recalculating siblings */
+}
+.image-container img {
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  transition: transform 0.3s ease-out;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 
