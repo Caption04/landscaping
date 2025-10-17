@@ -3,7 +3,9 @@ const menu = document.querySelector(".menu");
 const navButton = document.querySelectorAll(".open");
 
 navButton.forEach(button => {
-  button.addEventListener("click", () => {
+  button.addEventListener("click", (e) => {
+      const clickedBtn = e.currentTarget;
+      console.log('Clicked', clickedBtn);
       const closeBtn = button.querySelector(".menu-close-btn");
       const openBtn = button.querySelector(".menu-open-btn");
 
