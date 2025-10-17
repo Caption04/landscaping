@@ -17,7 +17,7 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const images = document.querySelectorAll('.stack img');
+const images = document.querySelectorAll('.gallery-container img');
 
     window.addEventListener('scroll', () => {
       // get scroll progress (0 to 1)
