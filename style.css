@@ -32,7 +32,6 @@ body{
   line-height: 1.5; 
   background: var(--primary-clr-);
   color: var(--secondary-clr-);
-  height: 500vh
 }
 
 button{
@@ -373,7 +372,7 @@ h2{
 .gallery-section{
   position: sticky;
   top: 0;
-  height: 100vh;
+  height: 500vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,7 +391,7 @@ h2{
   transition: transform 0.3s ease-out;
 }
 
-.gallery-container img:nth-child(1) { z-index: 3; transform: translateY(0); }
-.gallery-container img:nth-child(2) { z-index: 2; transform: translateY(60px); }
-.gallery-container img:nth-child(3) { z-index: 1; transform: translateY(120px); }
+.gallery-container img:nth-child(1) { z-index: 1; transform: translateY(0); }
+.gallery-container img:nth-child(2) { z-index: 2; transform: translateY(100px); }
+.gallery-container img:nth-child(3) { z-index: 3; transform: translateY(120px); }
 
