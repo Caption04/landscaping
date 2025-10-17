@@ -1,6 +1,6 @@
 const header = document.querySelector(".header");
 const menu = document.querySelector(".menu");
-const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn,');
+const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn');
 const closeMenu = document.querySelector('.close-menu');
 
 navButtons.forEach(button => {
