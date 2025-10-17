@@ -371,11 +371,11 @@ h2{
 /* Section 2 */
 .gallery-section{
   width: 100%;
+  position: relative;
 }
 .gallery-container{
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 .gallery-container img {
   top: 0;
