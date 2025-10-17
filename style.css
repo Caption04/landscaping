@@ -394,17 +394,19 @@ h2{
 }
 .stack img:nth-child(1) { 
   left: 50%;
-  transform: translate(0px, 0px); 
+  transform: translate(0px, 0px) rotate(0); 
   z-index: 3; 
 }
 .stack img:nth-child(2) { 
   left: 50%;
-  transform: translate(5px, 5px); 
+  transform-origin: bottom center;
+  transform: translate(5px, 5px) rotate(0deg); 
   z-index: 2; 
 }
 .stack img:nth-child(3) { 
   left: 50%;
-  transform: translate(-5px, 10px); 
+  transform-origin: bottom center;
+  transform: translate(-5px, 10px) rotate(0deg); 
   z-index: 1; 
 }
 

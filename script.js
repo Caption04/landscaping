@@ -30,6 +30,7 @@ const images = document.querySelectorAll('.gallery-container img');
         if (i === 0) return; // top one stays
         const direction = i % 2 === 0 ? -1 : 1; // alternate left/right
         const offset = progress * (i * 60); // how far they move
-        img.style.transform = `translate(${direction * offset}px, ${i * 10}px)`;
+        img.style.transform = `translate(${direction * offset}px, ${i * 10}px) rotate(${direction * 45}deg)`;
+        
       });
     });
