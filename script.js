@@ -9,10 +9,12 @@ navButtons.forEach(button => {
       console.log('Clicked', clickedBtn);
       const closeBtn = button.querySelector(".menu-close-btn");
       const openBtn = button.querySelector(".menu-open-btn");
-
+      if(clickedBtn.classList.contains('nav-menu-btn')){
+        openBtn.classList.toggle("open-btn");
+        closeBtn.classList.toggle("close-btn");
+      }
       menu.classList.toggle("open");
-      openBtn.classList.toggle("open-btn");
-      closeBtn.classList.toggle("close-btn");
+
       if(menu.classList.contains("open")){
           document.body.style.overflow = "hidden";
       }
@@ -24,8 +26,6 @@ navButtons.forEach(button => {
 
 closeMenu.addEventListener('click', () => {
       menu.classList.remove("open");
-      openBtn.classList.toggle("open-btn");
-      closeBtn.classList.toggle("close-btn");
       document.body.style.overflow = "auto";
   })
 

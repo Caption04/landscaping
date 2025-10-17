@@ -294,6 +294,7 @@ h1{
 }
 
 .close-menu{
+  visibility: hidden;
   cursor: pointer;
   position: absolute;
   right: 20px;
@@ -334,6 +335,9 @@ Hero Responsiveness
   }
   .header-small{
     display: flex;
+  }
+  .close-menu{
+    visibility: visible;
   }
   .header{
     display: none;
