@@ -437,6 +437,12 @@ h2{
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1.2rem;  
 }
+@media screen and (max-width: 1000px) {
+  .data-box-container{
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+}
 .data-box{
   display: flex;
   flex-direction: column;
