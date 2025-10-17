@@ -486,7 +486,7 @@ h4{
   flex-direction: column;
 }
 .stat-image-holder{
-  width: 90vw;
+  width: 90%;
   aspect-ratio: 3/4;
 }
 .stat-image-holder img{
