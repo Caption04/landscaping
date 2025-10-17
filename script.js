@@ -17,20 +17,20 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const images = document.querySelectorAll('.gallery-container img');
-let currentIndex = 0; // tracks which image is currently on top
+// const images = document.querySelectorAll('.gallery-container img');
+// let currentIndex = 0; // tracks which image is currently on top
 
-window.addEventListener('scroll', () => {
-  const viewportTrigger = window.innerHeight * 0.7; // 70% of viewport
-  const topImage = images[currentIndex];
-  const rect = topImage.getBoundingClientRect();
+// window.addEventListener('scroll', () => {
+//   const viewportTrigger = window.innerHeight * 0.7; // 70% of viewport
+//   const topImage = images[currentIndex];
+//   const rect = topImage.getBoundingClientRect();
 
-  // check if the top image has reached the trigger
-  if(rect.top <= viewportTrigger && currentIndex < images.length - 1) {
-    currentIndex++;
-    const nextImage = images[currentIndex];
+//   // check if the top image has reached the trigger
+//   if(rect.top <= viewportTrigger && currentIndex < images.length - 1) {
+//     currentIndex++;
+//     const nextImage = images[currentIndex];
 
-    // move next image to neutral and bring it on top
-    nextImage.style.transform = 'translateY(0)';
-  }
-});
+//     // move next image to neutral and bring it on top
+//     nextImage.style.transform = 'translateY(0)';
+//   }
+// });

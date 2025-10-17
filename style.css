@@ -370,22 +370,18 @@ h2{
 
 /* Section 2 */
 .gallery-section{
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 .gallery-container{
+  display: flex;
+  flex-direction: column;
   position: relative;
-  width: 100vw;
-  aspect-ratio: 3/4;
 }
 .gallery-container img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  position: sticky;
+  width: 100vw;
+  aspect-ratio: 3/4;
   object-fit: cover;
   border-radius: 20px;
   transition: transform 0.3s ease-out;
