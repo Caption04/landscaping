@@ -371,6 +371,8 @@ h2{
 /* Section 2 */
 .gallery-section{
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
 }
 .gallery-container{
@@ -396,8 +398,8 @@ h2{
   will-change: transform;
 }
 @media screen and (max-width: 478px) {
-  .gallery-section{
-    padding-left: 0;
+  .gallery-container{
+    width: 100%;
   }
 }
 
