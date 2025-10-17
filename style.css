@@ -275,7 +275,7 @@ h1{
   align-items: center;
   width: 100%;
   padding: 0.5em 1em;
-  z-index: 2;
+  z-index: 10;
   background: var(--primary-clr-);
 }
 
