@@ -281,6 +281,8 @@ h1{
 
 .small-hero-btn{
   cursor: pointer;
+  position: relative;
+  z-index: 100;
 }
 .small-hero-btn svg{
   width: 32px;
