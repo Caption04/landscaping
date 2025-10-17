@@ -454,6 +454,7 @@ h4{
   flex-direction: column;
   padding: 2em 1em;
   border: 1px solid var(--secondary-clr-);
+  border-radius: 20px;
   box-shadow: 1px 2px 12px var(--secondary-clr-);
   align-items: center;
   justify-content: center;
