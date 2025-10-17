@@ -381,7 +381,7 @@ h2{
 .gallery-container{
   position: relative;
   width: 100vw;
-  height: 400px;
+  aspect-ratio: 3/4;
 }
 .gallery-container img {
   position: absolute;
