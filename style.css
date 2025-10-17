@@ -378,7 +378,7 @@ h2{
   flex-direction: column;
 }
 .gallery-container img {
-  top: 0;
+  top: 20%;
   position: sticky;
   width: 100vw;
   aspect-ratio: 3/4;
