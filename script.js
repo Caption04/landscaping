@@ -18,21 +18,20 @@ navButton.addEventListener("click", () => {
 })
 
 const images = document.querySelectorAll('.gallery-container img');
-    const totalScroll = document.body.scrollHeight - window.innerHeight;
-    const segment = totalScroll / (images.length - 1);
+let currentIndex = 0; // tracks which image is currently on top
 
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
+window.addEventListener('scroll', () => {
+  const viewportTrigger = window.innerHeight * 0.7; // 70% of viewport
+  const topImage = images[currentIndex];
+  const rect = topImage.getBoundingClientRect();
 
-      images.forEach((img, i) => {
-        const start = i * segment;
-        const end = (i + 1) * segment;
-        const progress = Math.min(Math.max((scrollY - start) / segment, 0), 1);
+  // check if the top image has reached the trigger
+  if(rect.top <= viewportTrigger && currentIndex < images.length - 1) {
+    currentIndex++;
+    const nextImage = images[currentIndex];
 
-        if (i === 0) return; // first stays still
-
-        // move each image upward into the neutral position
-        const offset = 120 - progress * 120; // from 120px to 0px
-        img.style.transform = `translateY(${offset}px)`;
-      });
-    });
+    // move next image to neutral and bring it on top
+    nextImage.style.transform = 'translateY(0)';
+    nextImage.style.zIndex = currentIndex + 1; // ensure it rises above previous
+  }
+});
