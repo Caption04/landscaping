@@ -1,21 +1,24 @@
 const header = document.querySelector(".header");
 const menu = document.querySelector(".menu");
-const navButton = document.querySelector(".nav-menu-btn");
+const navButton = document.querySelectorAll(".open");
 
-navButton.addEventListener("click", () => {
-    const closeBtn = navButton.querySelector(".menu-close-btn");
-    const openBtn = navButton.querySelector(".menu-open-btn");
+navButton.forEach(button => {
+  button.addEventListener("click", () => {
+      const closeBtn = button.querySelector(".menu-close-btn");
+      const openBtn = button.querySelector(".menu-open-btn");
 
-    menu.classList.toggle("open");
-    openBtn.classList.toggle("open-btn");
-    closeBtn.classList.toggle("close-btn");
-    if(menu.classList.contains("open")){
-        document.body.style.overflow = "hidden";
-    }
-    else{
-        document.body.style.overflow = "auto";
-    }
+      menu.classList.toggle("open");
+      openBtn.classList.toggle("open-btn");
+      closeBtn.classList.toggle("close-btn");
+      if(menu.classList.contains("open")){
+          document.body.style.overflow = "hidden";
+      }
+      else{
+          document.body.style.overflow = "auto";
+      }
+  })
 })
+
 
 // const images = document.querySelectorAll('.gallery-container img');
 // let currentIndex = 0; // tracks which image is currently on top
