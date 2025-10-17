@@ -285,6 +285,7 @@ h1{
   z-index: 100;
 }
 .small-hero-btn svg{
+  position: absolute;
   width: 32px;
   height: 32px;
   min-width: 32px;

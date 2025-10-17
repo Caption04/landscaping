@@ -1,6 +1,7 @@
 const header = document.querySelector(".header");
 const menu = document.querySelector(".menu");
-const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn, .close-menu');
+const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn,');
+const closeMenu = document.querySelector('.close-menu');
 
 navButtons.forEach(button => {
   button.addEventListener("click", (e) => {
@@ -18,6 +19,14 @@ navButtons.forEach(button => {
       else{
           document.body.style.overflow = "auto";
       }
+  })
+})
+
+closeMenu.addEventListener('click', () => {
+      menu.classList.remove("open");
+      openBtn.classList.toggle("open-btn");
+      closeBtn.classList.toggle("close-btn");
+      document.body.style.overflow = "auto";
   })
 })
 
