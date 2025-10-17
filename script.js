@@ -17,29 +17,19 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const section = document.querySelector('.gallery-section');
-const targetImg = document.getElementById('img4');
-const otherImgs = [...document.querySelectorAll('.gallery-image')].filter(img => img !== targetImg);
+const images = document.querySelectorAll('.stack img');
 
-window.addEventListener('scroll', () => {
-  const sectionTop = section.offsetTop;
-  const sectionHeight = section.offsetHeight;
-  const scrollY = window.scrollY;
-  const viewportHeight = window.innerHeight;
+    window.addEventListener('scroll', () => {
+      // get scroll progress (0 to 1)
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const progress = scrollTop / docHeight;
 
-  // progress from 0 → 1 as user scrolls through the pinned section
-  let progress = (scrollY - sectionTop + viewportHeight) / (sectionHeight);
-  progress = Math.min(Math.max(progress, 0), 1);
-
-  // grow target image
-  targetImg.style.width = 20 + (100 - 20) * progress + 'vw';
-
-  // slide other images aside
-  otherImgs.forEach((img, i) => {
-    if(i < 3){
-      img.style.transform = `translateX(${-50 * progress}%)`; // left
-    } else {
-      img.style.transform = `translateX(${50 * progress}%)`; // right
-    }
-  });
-});
+      // top image stays, others move more as you scroll
+      images.forEach((img, i) => {
+        if (i === 0) return; // top one stays
+        const direction = i % 2 === 0 ? -1 : 1; // alternate left/right
+        const offset = progress * (i * 60); // how far they move
+        img.style.transform = `translate(${direction * offset}px, ${i * 10}px)`;
+      });
+    });
