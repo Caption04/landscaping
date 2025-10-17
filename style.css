@@ -359,7 +359,7 @@ h2{
   color: var(--secondary-clr-);
 }
 .body-row-header-container{
-  padding-bottom: 12em;
+  padding-bottom: 3em;
 }
 .body{
   display: flex;
@@ -456,6 +456,6 @@ h2{
 
 /* Stat section */
 .stat-container-section{
-  
+
 }
 
