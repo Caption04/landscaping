@@ -28,7 +28,6 @@ closeMenu.addEventListener('click', () => {
       closeBtn.classList.toggle("close-btn");
       document.body.style.overflow = "auto";
   })
-})
 
 // const images = document.querySelectorAll('.gallery-container img');
 // let currentIndex = 0; // tracks which image is currently on top
