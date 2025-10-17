@@ -448,14 +448,16 @@ h2{
 }
 .data-box-row{}
 .data-box-number{
-  font-size: clamp(18px, 0.1rem + 2vw, 30px);
+  font-size: clamp(25px, 0.1rem + 2vw, 40px);
 }
 .data-box-header{
   font-size: clamp(18px, 0.1rem + 2vw, 22px);
   font-weight: 600;
+  text-align: center;
 }
 .data-box-text{
   font-size: clamp(14px, 0.1rem + 2vw, 16px);
+  text-align: center;
 }
 
 /* Stat section */
