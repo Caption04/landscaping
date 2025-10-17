@@ -17,27 +17,22 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const images = document.querySelectorAll('.gallery-container img');
+const images = document.querySelectorAll('.stack img');
     const totalScroll = document.body.scrollHeight - window.innerHeight;
-    const sectionHeight = totalScroll / images.length;
+    const segment = totalScroll / (images.length - 1);
 
     window.addEventListener('scroll', () => {
       const scrollY = window.scrollY;
 
       images.forEach((img, i) => {
-        const start = i * sectionHeight;
-        const end = (i + 1) * sectionHeight;
-        const progress = (scrollY - start) / (end - start);
+        const start = i * segment;
+        const end = (i + 1) * segment;
+        const progress = Math.min(Math.max((scrollY - start) / segment, 0), 1);
 
-        if (scrollY < start) {
-          img.style.opacity = 0;
-          img.style.transform = 'translateY(50px)';
-        } else if (scrollY >= start && scrollY <= end) {
-          img.style.opacity = progress;
-          img.style.transform = `translateY(${50 - progress * 50}px)`;
-        } else {
-          img.style.opacity = 1;
-          img.style.transform = 'translateY(0)';
-        }
+        if (i === 0) return; // first stays still
+
+        // move each image upward into the neutral position
+        const offset = 120 - progress * 120; // from 120px to 0px
+        img.style.transform = `translateY(${offset}px)`;
       });
     });

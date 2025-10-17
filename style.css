@@ -32,6 +32,7 @@ body{
   line-height: 1.5; 
   background: var(--primary-clr-);
   color: var(--secondary-clr-);
+  height: 500vh
 }
 
 button{
@@ -370,10 +371,6 @@ h2{
 
 /* Section 2 */
 .gallery-section{
-  position: relative;
-  height: 500vh; /* enough scroll space */
-}
-.gallery-container{
   position: sticky;
   top: 0;
   height: 100vh;
@@ -381,29 +378,21 @@ h2{
   justify-content: center;
   align-items: center;
 }
+.gallery-container{
+  position: relative;
+  width: 100vw;
+  height: 400px;
+}
 .gallery-container img {
   position: absolute;
-  width: 100vw;
-  aspect-ratio: 3/4;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 16px;
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+  border-radius: 20px;
+  transition: transform 0.3s ease-out;
 }
-.stack img:nth-child(1) { 
-  left: 50%;
-  transform: translate(0px, 0px) rotate(0); 
-  z-index: 1; 
-}
-.stack img:nth-child(2) { 
-  left: 50%;
-  transform-origin: bottom center;
-  transform: translate(5px, 5px) rotate(0deg); 
-  z-index: 2; 
-}
-.stack img:nth-child(3) { 
-  left: 50%;
-  transform-origin: bottom center;
-  transform: translate(-5px, 10px) rotate(0deg); 
-  z-index: 3; 
-}
+
+.stack img:nth-child(1) { z-index: 3; transform: translateY(0); }
+.stack img:nth-child(2) { z-index: 2; transform: translateY(60px); }
+.stack img:nth-child(3) { z-index: 1; transform: translateY(120px); }
 
