@@ -17,7 +17,7 @@ navButton.addEventListener("click", () => {
     }
 })
 
-const images = document.querySelectorAll('.stack img');
+const images = document.querySelectorAll('.gallery-container img');
     const totalScroll = document.body.scrollHeight - window.innerHeight;
     const segment = totalScroll / (images.length - 1);
 

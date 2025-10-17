@@ -392,7 +392,7 @@ h2{
   transition: transform 0.3s ease-out;
 }
 
-.stack img:nth-child(1) { z-index: 3; transform: translateY(0); }
-.stack img:nth-child(2) { z-index: 2; transform: translateY(60px); }
-.stack img:nth-child(3) { z-index: 1; transform: translateY(120px); }
+.gallery-container img:nth-child(1) { z-index: 3; transform: translateY(0); }
+.gallery-container img:nth-child(2) { z-index: 2; transform: translateY(60px); }
+.gallery-container img:nth-child(3) { z-index: 1; transform: translateY(120px); }
 
