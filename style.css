@@ -441,13 +441,17 @@ h2{
   display: flex;
   flex-direction: column;
   padding: 2em 1em;
+  border: 1px solid var(--secondary-clr-);
+  box-shadow: 1px 2px 12px var(--secondary-clr-);
+  align-items: center;
+  justify-content: center;
 }
 .data-box-row{}
 .data-box-number{
-  font-size: clamp(14px, 0.1rem + 2vw, 18px);
+  font-size: clamp(18px, 0.1rem + 2vw, 30px);
 }
 .data-box-header{
-  font-size: clamp(14px, 0.1rem + 2vw, 18px);
+  font-size: clamp(18px, 0.1rem + 2vw, 22px);
   font-weight: 600;
 }
 .data-box-text{
