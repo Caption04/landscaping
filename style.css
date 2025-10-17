@@ -293,6 +293,23 @@ h1{
   margin-right: auto;
 }
 
+.close-menu{
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 100;
+}
+
+.close-menu svg{
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  flex-shrink: 0;
+  margin-right: auto;
+}
+
 .logo-link-small{
   position: absolute;
   left: 50%;
