@@ -1,6 +1,6 @@
 const header = document.querySelector(".header");
 const menu = document.querySelector(".menu");
-const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn');
+const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn, .close-menu');
 
 navButtons.forEach(button => {
   button.addEventListener("click", (e) => {
