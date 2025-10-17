@@ -382,7 +382,7 @@ h2{
   position: relative;
   width: 300px;
   height: 400px;
-  background: red;
+  background: orange;
 }
 .gallery-container img {
   position: absolute;
