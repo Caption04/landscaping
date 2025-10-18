@@ -630,7 +630,7 @@ h4{
 
 .contact-details:first-of-type{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .contact-details p{
   width: 100%;
