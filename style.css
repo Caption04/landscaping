@@ -510,6 +510,7 @@ h4{
 .stat-image-holder{
   width: 90%;
   aspect-ratio: 1;
+  margin-bottom: 1em;
 }
 .stat-image-holder img{
   width: 100%;
@@ -524,7 +525,6 @@ h4{
     flex-direction: column;
   }
   .stat-section-split .body-row-text{
-    text-align: center;
     margin-bottom: 2em;
   }
 }
