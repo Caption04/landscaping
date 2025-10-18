@@ -481,6 +481,11 @@ h4{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width: 1000px) {
+  .stat-container-section{
+    grid-template-columns: 1fr;
+  }
+}
 .state-section-split{
   display: flex;
   justify-content: center;
