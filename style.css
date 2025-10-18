@@ -536,6 +536,10 @@ h4{
 
 
 /* Trusted by section */
+.client-container{
+  display: flex;
+  
+}
 
 /* CAT Section */
 #cat{
