@@ -368,10 +368,8 @@ h4{
   display: flex;
   padding-bottom: 3em;
 }
-@media screen and (max-width: 478px) {
-  .body-row-header{
-    text-align: center;
-  }
+.body-row-header{
+  text-align: center;
 }
 .body{
   display: flex;
