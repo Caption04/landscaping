@@ -538,7 +538,19 @@ h4{
 /* Trusted by section */
 .client-container{
   display: flex;
-  
+  flex-direction: column;
+}
+.client-logos-container{
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.client-logo-holder{
+  padding: 1em;
+}
+.client-logo-holder{
+  width: 100%;
+  object-fit: cover;
 }
 
 /* CAT Section */
