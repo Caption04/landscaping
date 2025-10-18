@@ -610,3 +610,9 @@ h4{
   display: flex;
   flex-direction: column;
 }
+.footer-logo-container{
+  margin-bottom: 1em;
+}
+.contact-details p{
+  margin-bottom: 1em;
+}
