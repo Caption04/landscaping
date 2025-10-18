@@ -608,6 +608,9 @@ h4{
 }
 .foot-section div{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .f-section{
