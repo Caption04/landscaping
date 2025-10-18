@@ -609,10 +609,14 @@ h4{
 .f-section{
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 100%;
 }
-.footer-logo-container{
-  margin-bottom: 1em;
+.footer-logo-container {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.footer-logo:not(:first-of-type){
+  margin: auto;
 }
 .contact-details p{
   margin-bottom: 1em;
