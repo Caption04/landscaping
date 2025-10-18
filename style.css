@@ -484,6 +484,8 @@ h4{
 @media screen and (max-width: 1000px) {
   .stat-container-section{
     grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    transform: rotate(180deg);
   }
 }
 .state-section-split{
@@ -503,6 +505,11 @@ h4{
 }
 .statisitic-holder{
   display: flex;
+}
+@media screen and (max-width: 478px) {
+  .statisitic-holder{
+    flex-direction: column;
+  }
 }
 .statistic{
   margin-bottom: 1em;
