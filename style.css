@@ -365,7 +365,13 @@ h4{
   font-size: clamp(18px, 0.1rem + 2vw, 22px);
 }
 .body-row-header-container{
+  display: flex;
   padding-bottom: 3em;
+}
+@media screen and (max-width: 478px) {
+  .body-row-header{
+    text-align: center;
+  }
 }
 .body{
   display: flex;
@@ -521,6 +527,7 @@ h4{
 }
 
 /* Why Us Section */
+
 
 /* Trusted by section */
 
