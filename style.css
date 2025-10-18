@@ -628,13 +628,17 @@ h4{
   margin: auto;
 }
 
-.contact-details:first-of-type{
+/* .contact-details:first-of-type{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 .contact-details p{
   width: 100%;
   margin-bottom: 1em;
   text-align: center;
+}
+
+.contact-details:first-of-type p{
+  text-align: left;
 }
