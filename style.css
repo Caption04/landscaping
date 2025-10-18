@@ -545,11 +545,6 @@ h4{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
 }
-@media screen and (max-width: 500px) {
-  .client-logos-container{
-    grid-template-columns: 1fr 1fr;
-  }  
-}
 
 .client-logo-holder{
   padding: 1%;
@@ -562,7 +557,14 @@ h4{
   width: 80%;
   object-fit: cover;
 }
-
+@media screen and (max-width: 500px) {
+  .client-logos-container{
+    grid-template-columns: 1fr 1fr;
+  }  
+  .client-logo-holder{
+    width: 50%
+  }
+}
 /* CAT Section */
 #cat{
   display: flex;
