@@ -485,7 +485,6 @@ h4{
   .stat-container-section{
     grid-template-columns: 1fr;
     grid-auto-flow: row;
-    transform: rotate(180deg);
   }
 }
 .state-section-split{
