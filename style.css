@@ -627,6 +627,11 @@ h4{
 .footer-logo:not(:first-of-type){
   margin: auto;
 }
+
+.contact-details:first-of-type{
+  
+}
 .contact-details p{
   margin-bottom: 1em;
+  text-align: left;
 }
