@@ -565,6 +565,9 @@ h4{
     width: 50%
   }
 }
+#trusted{
+  margin-bottom: 1em;
+}
 /* CAT Section */
 #cat{
   display: flex;
