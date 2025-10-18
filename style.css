@@ -505,8 +505,7 @@ h4{
   flex-direction: column;
 }
 .stat-section-split .body-row-button-container{
-  display:  flex;
-  justify-content: flex-start;
+  width: 100%;
 }
 .stat-image-holder{
   width: 90%;
