@@ -526,6 +526,8 @@ h4{
 
 /* CAT Section */
 #cat{
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 #cat::before{
