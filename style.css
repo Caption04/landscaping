@@ -521,3 +521,19 @@ h4{
 /* Trusted by section */
 
 /* CAT Section */
+#cat{
+  position: relative;
+}
+#cat::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('img5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.4);
+}
