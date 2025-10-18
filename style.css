@@ -611,25 +611,12 @@ h4{
   align-items: center;
   width: 100%
 }
-@media screen and (max-width: 1000px) {
-  .foot-section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .foot-section > .item-1{
-    grid-column: 1 / -1;
-  }
-}
+
 .foot-section div{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media screen and (max-width: 100px) {
-  .foot-section div{
-    align-items: flex-start;
-  }
 }
 
 .f-section{
@@ -660,4 +647,13 @@ h4{
 
 .contact-details:first-of-type p{
   text-align: left;
+}
+@media screen and (max-width: 1000px) {
+  .foot-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .foot-section > .item-1{
+    grid-column: 1 / -1;
+  }
 }
