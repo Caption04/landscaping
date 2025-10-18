@@ -628,7 +628,7 @@ h4{
   margin: auto;
 }
 
-.contact-details:first-child{
+.contact-details:first-of-type{
   display: flex;
   justify-content: flex-start;
 }
