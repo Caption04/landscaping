@@ -609,6 +609,7 @@ h4{
 .f-section{
   display: flex;
   flex-direction: column;
+  width: 25%;
 }
 .footer-logo-container{
   margin-bottom: 1em;
