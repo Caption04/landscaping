@@ -628,10 +628,11 @@ h4{
   margin: auto;
 }
 
-/* .contact-details:first-of-type{
+.contact-details:first-of-type{
   display: flex;
-  justify-content: center;
-} */
+  flex-direction: column;
+  align-items: center;
+}
 .contact-details p{
   width: 100%;
   margin-bottom: 1em;
