@@ -597,6 +597,7 @@ h4{
   grid-template-columns: 1fr;
   padding: 5% 5% 5% 13%;
   width: 100%;
+  color: var(--primary-clr-);
 }
 
 .foot-section{
