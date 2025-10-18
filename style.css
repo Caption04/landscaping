@@ -546,10 +546,13 @@ h4{
 }
 
 .client-logo-holder{
-  padding: 1em;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .client-logo-holder{
-  width: 100%;
+  width: 50%;
   object-fit: cover;
 }
 
