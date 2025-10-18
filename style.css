@@ -542,7 +542,8 @@ h4{
 }
 .client-logos-container{
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
 }
 
 .client-logo-holder{
