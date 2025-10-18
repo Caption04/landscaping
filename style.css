@@ -588,3 +588,24 @@ h4{
   background-size: cover;
   filter: brightness(0.4);
 }
+
+
+/* footer Section */
+.footer{ 
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5% 5% 5% 13%;
+  width: 100%;
+}
+
+.foot-section{
+  display: flex;
+  align-items: center;
+  width: 100%
+}
+
+.f-section{
+  display: flex;
+  flex-direction: column;
+}
