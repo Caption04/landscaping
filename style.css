@@ -648,6 +648,18 @@ h4{
 .contact-details:first-of-type p{
   text-align: left;
 }
+
+.footer-section-bottom{
+  width: 100%;
+  display: flex;
+}
+.copyright-text{
+  width: 100%;
+}
+.copyright-text p{
+  text-align: center;
+  font-size: clamp(10px, 1vw, 12px);
+}
 @media screen and (max-width: 1000px) {
   .foot-section{
     display: grid;
