@@ -600,19 +600,20 @@ h4{
   width: 100%;
   color: var(--primary-clr-);
 }
-/* @media screen and (max-width: 1000px) {
-  .footer{
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .footer > .item-1{
-    grid-column: 1 / -1;
-  }
-} */
 
 .foot-section{
   display: flex;
   align-items: center;
   width: 100%
+}
+@media screen and (max-width: 1000px) {
+  .foot-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .foot-section > .item-1{
+    grid-column: 1 / -1;
+  }
 }
 .foot-section div{
   width: 100%;
