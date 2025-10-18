@@ -518,13 +518,14 @@ h4{
 .statisitic-holder{
   display: flex;
 }
+.stat-section-split .body-row-text{
+  margin-bottom: 2em;
+}
 @media screen and (max-width: 478px) {
   .statisitic-holder{
     flex-direction: column;
   }
-  .stat-section-split .body-row-text{
-    margin-bottom: 2em;
-  }
+
 }
 .statistic{
   margin-bottom: 1em;
