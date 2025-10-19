@@ -48,6 +48,8 @@ button{
   border-style: none;
   border-radius: 50px;
   display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 h1,
@@ -390,6 +392,10 @@ h4{
   padding-top: 4em;
 }
 
+.body-row-button-container{
+  display: flex;
+  gap: 1em;
+}
 /* section 1 */
 .body-row{
   width: 100%;
