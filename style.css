@@ -98,6 +98,10 @@ img {
   flex-direction: column;
 }
 
+.menu-data-list li{
+  margin-bottom: 1em;
+}
+
 .menu-data-list a{
   color: var(--secondary-clr-);
   font-family: var(--ff-primary-);
