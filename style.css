@@ -339,6 +339,8 @@ h1{
 
 .hero-btn{
   position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
 .hero-btn svg{
   height: 32px;
