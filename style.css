@@ -336,6 +336,16 @@ h1{
   height: auto;
   min-width: 90px;
 }
+
+.hero-btn{
+  position: absolute;
+}
+.hero-btn svg{
+  height: 32px;
+  width: 32px;
+  stroke-width: 2;
+  stroke: #fff;
+}
 /* 
 ======================
 Hero Responsiveness
