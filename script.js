@@ -1,3 +1,16 @@
+// Hero button
+const heroButton = document.querySelector('.hero-btn');
+const body = document.querySelector('.body');
+
+heroButton.addEventListener('click', () => {
+  body.scrollIntoView(
+    {
+      behavior: 'smooth',
+      block: 'start'
+    }
+  );
+})
+
 const header = document.querySelector(".header");
 const menu = document.querySelector(".menu");
 const navButtons = document.querySelectorAll('.nav-menu-btn, .small-hero-btn');
@@ -29,20 +42,3 @@ closeMenu.addEventListener('click', () => {
       document.body.style.overflow = "auto";
   })
 
-// const images = document.querySelectorAll('.gallery-container img');
-// let currentIndex = 0; // tracks which image is currently on top
-
-// window.addEventListener('scroll', () => {
-//   const viewportTrigger = window.innerHeight * 0.7; // 70% of viewport
-//   const topImage = images[currentIndex];
-//   const rect = topImage.getBoundingClientRect();
-
-//   // check if the top image has reached the trigger
-//   if(rect.top <= viewportTrigger && currentIndex < images.length - 1) {
-//     currentIndex++;
-//     const nextImage = images[currentIndex];
-
-//     // move next image to neutral and bring it on top
-//     nextImage.style.transform = 'translateY(0)';
-//   }
-// });
