@@ -47,9 +47,13 @@ button{
   padding: 0.5em 1em;
   border-style: none;
   border-radius: 50px;
+<<<<<<< HEAD
+  cursor: pointer;
+=======
   display: flex;
   align-items: center;
   gap: 0.5em;
+>>>>>>> 0f8d7bdb030f55059831703f67ae862a715256a3
 }
 
 h1,
