@@ -337,10 +337,13 @@ h1{
   min-width: 90px;
 }
 
-.hero-btn{
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
+.hero-btn {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 1em;
 }
 .hero-btn svg{
   height: 32px;
