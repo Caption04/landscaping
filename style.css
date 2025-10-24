@@ -511,6 +511,21 @@ h4{
   font-size: clamp(14px, 0.1rem + 2vw, 16px);
   text-align: center;
 }
+.more-services-container {
+    /* background: #fff; */
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+.more-services-container a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
 
 /* Stat section */
 .stat-container-section{
