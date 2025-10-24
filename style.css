@@ -488,6 +488,10 @@ h4{
   align-items: center;
   justify-content: center;
 }
+.data-box:hover {
+    background: #fff;
+    color: var(--primary-clr-);
+}
 .header-container-box {
     height: fit-content;
 }
