@@ -344,6 +344,7 @@ h1{
     background: transparent;
     border: 1px solid #fff;
     padding: 1em;
+    z-index: 100;
 }
 .hero-btn svg{
   height: 32px;
