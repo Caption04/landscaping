@@ -50,6 +50,7 @@ button{
   display: flex;
   align-items: center;
   gap: 0.5em;
+  cursor: pointer;
 }
 
 h1,
@@ -486,8 +487,12 @@ h4{
   align-items: center;
   justify-content: center;
 }
-.data-box-row{
-  padding: 1em 0;
+.header-container-box {
+    height: fit-content;
+}
+.data-box-row {
+    padding: 1em 0;
+    height: 100%;
 }
 .data-box-number{
   font-size: clamp(25px, 0.1rem + 2vw, 40px);
