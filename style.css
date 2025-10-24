@@ -622,6 +622,7 @@ h4{
   position: relative;
   padding-top: 5em;
   padding-bottom: 5em;
+  width: 100%;
 }
 #cat::before{
   content: " ";
