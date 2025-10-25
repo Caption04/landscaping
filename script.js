@@ -1,9 +1,9 @@
 
 window.addEventListener('DOMContentLoaded', () => {
-  if(window.location.pathname === "/index.html"){
+  if(window.location.pathname.endsWith("index.html")){
     console.log('home');
     document.querySelector('.hero').classList.remove('new-style');
-  }else if(window.location.pathname === "/about.html"){
+  }else if(window.location.pathname.endsWith("about.html")){
     console.log('about');
     document.querySelector('.hero').classList.add('new-style');
   }
