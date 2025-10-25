@@ -1,3 +1,13 @@
+
+window.addEventListener('DOMContentLoaded', () => {
+  if(window.location.pathname === "/index.html"){
+    document.querySelector('.hero').classList.remove('new-style');
+  }else if(window.location,pathnmae === "/about.html"){
+    document.querySelector('.hero').classList.add('new-style');
+  }
+  // else if(){}
+})
+
 // Hero button
 const heroButton = document.querySelector('.hero-btn');
 const body = document.querySelector('.body');
