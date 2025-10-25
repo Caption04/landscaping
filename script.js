@@ -1,8 +1,10 @@
 
 window.addEventListener('DOMContentLoaded', () => {
   if(window.location.pathname === "/index.html"){
+    console.log('home');
     document.querySelector('.hero').classList.remove('new-style');
   }else if(window.location,pathnmae === "/about.html"){
+    console.log('about');
     document.querySelector('.hero').classList.add('new-style');
   }
   // else if(){}
